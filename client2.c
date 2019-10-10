@@ -6,7 +6,7 @@
 
 //char *socket_path = "./socket";
 char *socket_path = "\0hidden";
-
+//main function started
 int main(int argc, char *argv[]) {
 	struct sockaddr_un addr;
 	char buf[100];
